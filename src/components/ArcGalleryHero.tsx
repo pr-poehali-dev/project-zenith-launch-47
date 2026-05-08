@@ -100,20 +100,31 @@ const ArcGalleryHero = ({
 
       <div className="relative z-10 flex-1 flex items-center justify-center px-6 -mt-40 md:-mt-52 lg:-mt-64">
         <div className="text-center max-w-2xl px-6 opacity-0 animate-fade-in" style={{ animationDelay: '800ms', animationFillMode: 'forwards' }}>
+          <span className="inline-block mb-3 px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold tracking-widest uppercase">
+            Лукмаксинг
+          </span>
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground">
-            Визуальная галерея для вашего проекта
+            Стань лучшей версией себя
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            Создавайте впечатляющие презентации изображений за считанные минуты.
+            Гайды по внешности, уходу и стилю — реальные результаты без воды. Присоединяйся к каналу.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="w-full sm:w-auto px-6 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
-              Начать создавать
-            </button>
+            <a
+              href="https://t.me/silencer444"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto px-8 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 font-semibold text-base"
+            >
+              Перейти в Telegram
+            </a>
             <button className="w-full sm:w-auto px-6 py-3 rounded-full border border-border hover:bg-accent hover:text-accent-foreground transition-all duration-200">
-              Узнать больше
+              Результаты
             </button>
           </div>
+          <p className="mt-6 text-sm text-muted-foreground">
+            Уже <span className="text-foreground font-semibold">500+</span> подписчиков улучшили свою внешность
+          </p>
         </div>
       </div>
     </section>
