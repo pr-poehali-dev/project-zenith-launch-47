@@ -111,7 +111,7 @@ const ArcGalleryHero = ({
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://t.me/silencer444"
+              href="https://t.me/+HJYYu2Us075jMzk6"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 font-semibold text-base"
